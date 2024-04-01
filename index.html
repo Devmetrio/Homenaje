@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Proyecto homenaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main id="main">
+        <h1 id="title">José María Arguedas</h1>
+        <p>El peruano que unió dos mundos a base de puño y letra
+        <p>
+        <figure id="img-div">
+            <img id="image"
+                src="http://www.casadelaliteratura.gob.pe/wp-content/uploads/2016/06/JoseMariaArguedasArtesanos.jpg"
+                alt="Jose María con diferentes personas en un pueblo">
+            <figcaption id="img-caption">"Jose María Arguedas en el centro con diferentes personas a su alrededor en un
+                pueblo de Cajamarca"</figcaption>
+        </figure>
+
+        <section id="obras">
+            <h3 class="subtitulo">OBRAS DESTACADAS:</h3>
+            <div class="carrusel-list" id="carrusel-list">
+
+                <button class="carrusel-arrow carrusel-prev" id="button-prev" data-button="button-prev"
+                    onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left"
+                        class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z">
+                        </path>
+                    </svg>
+                </button>
+
+                <div class="carrusel-track" id="track">
+
+                    <div class="carrusel">
+                        <div>
+                            <a href="https://es.wikipedia.org/wiki/Yawar_Fiesta_(novela)" target="_blank">
+                                <picture>
+                                    <img src="img/imagen1.png" alt="imagen1">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carrusel">
+                        <div>
+                            <a href="https://es.wikipedia.org/wiki/Los_r%C3%ADos_profundos" target="_blank">
+                                <picture>
+                                    <img src="img/imagen2.jpg" alt="imagen2">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carrusel">
+                        <div>
+                            <a href="https://es.wikipedia.org/wiki/El_Sexto" target="_blank">
+                                <picture>
+                                    <img src="img/imagen3.jpg" alt="imagen3">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carrusel">
+                        <div>
+                            <a href="https://es.wikipedia.org/wiki/Diamantes_y_pedernales" target="_blank">
+                                <picture>
+                                    <img src="img/imagen4.jpg" alt="imagen4">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carrusel">
+                        <div>
+                            <a href="https://es.wikipedia.org/wiki/Todas_las_sangres" target="_blank">
+                                <picture>
+                                    <img src="img/imagen5.jpg" alt="imagen5">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carrusel">
+                        <div>
+                            <a href="https://es.wikipedia.org/wiki/El_zorro_de_arriba_y_el_zorro_de_abajo"
+                                target="_blank">
+                                <picture>
+                                    <img src="img/imagen6.jpg" alt="imagen6">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="carrusel">
+                        <div>
+                            <a
+                                href="https://ccelima.org/evento/las-comunidades-de-espana-y-peru/#:~:text=Las%20comunidades%20de%20Espa%C3%B1a%20y%20el%20Per%C3%BA%2C%20un%20estudio%20pionero,lo%20present%C3%B3%20en%20el%20CCE" target="_blank">
+                                <picture>
+                                    <img src="img/imagen7.jpg" alt="imagen7">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carrusel-arrow carrusel-next" id="button-next" data-button="button-next"
+                    onclick="app.processingButton(event)">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                        class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 320 512">
+                        <path fill="currentColor"
+                            d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <section id="tribute-info">
+            <h3 class="subtitulo" id="headline">LÍNEA DE TIEMPO DE LA VIDA DEL ESCRITOR</h3>
+            <ul>
+                <li>Nació en Andahuaylas, Apurimac, Perú en 1911.</li>
+                <li>Ingresó a la universidad San Marcos en 1931, licenciandose en literatura. </li>
+                <li>En 1935 publica su colección de cuentos titulado "Agua".</li>
+                <li>Publica su primera novela "Yawar Fiesta" en 1941.</li>
+                <li>En 1957 cursó Etnología en San Marcos hasta el grado de doctor.</li>
+                <li>Fue catedrático de Etnología en la universidad de San Marcos desde 1958.</li>
+                <li>En 1958 publica su novela autobiográfica "Los ríos profundos" y es con esta obra que consigue en
+                    1959 el Premio Nacional de Fomento a la Cultura Ricardo Palma.</li>
+                <li>Es publicada su novela "El Sexto" en 1961, consiguiendo con este por segunda vez el Premio Nacional
+                    de Fomento a la Cultura Ricardo Palma en 1962.</li>
+                <li>Fue nombrado Director de la Casa de la Cultura del Perú, en 1963.</li>
+                <li>Publica su obra "Todas las sangres" en 1964.</li>
+                <li>Fue elegido en 1967 jefe del departamento de Sociología de la Universidad Nacional Agraria La
+                    Molina.</li>
+                <li>En 1968 le fue otorgado el premio Inca Garcilaso de la Vega.</li>
+                <li>Es en 1969 cuando se suicida con un tiro en la cabeza a los 58 años.</li>
+            </ul>
+            <blockquote>
+                <p>"He sido feliz en mi llantos y lanzazos, porque fueron por el Perú, he sido feliz con mis
+                    insuficiencias porque sentía el Perú en quechua y en castellano"</p>
+                <cite>--José María Arguedas</cite>
+            </blockquote>
+            <h3>Si le pareció interesentante los datos mostrados acerca del mejor escritor peruano, puede encontrar más
+                información en la entrada que tiene en <a
+                    href="https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Arguedas" target="_blank"
+                    id="tribute-link">Wikipedia.</a></h3>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
